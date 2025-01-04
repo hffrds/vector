@@ -83,6 +83,7 @@ vec = other_vector
 类似于栈，不过是先入先出//首端删除与尾端插入
 以std::deque/std::list为底层容器
 多了个back()函数返回最后一个元素的引用(queue为空时返回值不确定)
+为front()非top() 返回第一个元素的引用
 
 //双端队列(deque)
 栈+队列
